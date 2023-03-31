@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   env: {
     SECRET: 'bestSecretKey69',
-    NODE_ENV: 'development',
+  
   },
  
  
