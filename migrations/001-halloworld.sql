@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS
 
  
 
--- DROP TABLE Clients;
--- DROP TABLE Orders;
--- DROP TABLE SpecialOrders;
--- DROP TABLE Products;
+DROP TABLE Clients;
+DROP TABLE Orders;
+DROP TABLE SpecialOrders;
+DROP TABLE Products;
