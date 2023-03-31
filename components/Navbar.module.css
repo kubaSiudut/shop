@@ -1,0 +1,93 @@
+.img {
+  background-color: rgb(219, 196, 188);
+  opacity: 0.95;
+  border-radius: 10px;
+  padding-left: 0;
+}
+.container {
+  border-radius: 13px;
+}
+
+.navContainerDesk {
+  background-color: rgb(219, 196, 188);
+  opacity: 0.95;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0%;
+  padding-right: 0;
+ 
+ 
+  justify-content: space-around;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.navContainerMobile {
+  background-color: rgb(219, 196, 188);
+  opacity: 0.95;
+  display: flex;
+ 
+  flex-direction: column;
+  padding-left: 0%;
+  padding-right: 0;
+  justify-content: space-around;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: rgb(243, 227, 222);
+  flex-grow: 1;
+  width: auto;
+  text-align: center;
+  height: 2em;
+  border-radius: 10px;
+  padding: auto;
+   
+ 
+  /* border: 2px solid black; */
+}
+.nonActive {
+  padding: auto;
+  text-decoration: none;
+  width: auto;
+  text-align: center;
+  height: 2em;
+  flex-grow: 1;
+  
+}
+ 
+.burgerOpen{
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 20;
+  display: none;
+}
+
+  
+
+.burgerClose{
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 20;
+  display: none;
+ 
+
+  
+}
+
+.burgerLine{
+  width: 2rem;
+  height: 0.25rem;
+ 
+  border-radius: 10px;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+}
+ 

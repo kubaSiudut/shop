@@ -1,0 +1,27 @@
+
+.desc_show{
+    animation: element-appear 1s ease-out forwards;
+  
+  }
+  .pic_show{
+    animation: element-appear 500ms ease-out forwards;
+  
+  }
+  .price_show{
+    animation: element-appear 2s ease-out forwards;
+  
+  }
+  
+  
+  
+  @keyframes element-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

@@ -1,0 +1,15 @@
+.dFlex{
+    display: flex;
+    
+}
+.navbarContainer{
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-left: 5px;
+    width: 100%;
+
+
+}

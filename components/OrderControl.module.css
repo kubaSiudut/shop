@@ -1,0 +1,84 @@
+.statusBar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    margin-right: 30em;
+    width: 45%;
+    margin-left: 1em;
+}
+
+.stepDone{
+    color: black;
+    font-weight: 800;
+    display: flex;
+}
+.stepNotDone{
+    color: rgb(45, 41, 41);
+    font-weight: 500;
+    display: flex;
+}
+
+.productsContainer{
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-left: 3em ;
+    padding-right: 3em;
+}
+.sumaryContainer{
+    align-items: center;
+ 
+    padding-left: 3em ;
+    padding-right: 3em;
+}
+
+.buttonBar{
+    display: flex;
+    justify-content: end;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+.buttonFwd{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: orange;
+    border-radius: 0.4em;
+    width: 8em;
+    height: 2em;
+}
+.buttonRwd{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(130, 129, 127);
+    border-radius: 0.4em;
+    width: 8em;
+    height: 2em;
+}
+
+.productsItem{
+    width: 100%;
+    justify-content: space-between;
+    padding: 2em;
+
+}
+.radioButtonsField{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    justify-content: space-between;
+}
+.label{
+    display: flex;
+    width: 15%;   
+   
+}
+.mainContainer{
+    border: 1px solid rgb(201, 179, 137);
+    padding: 2em 2em;
+    border-radius: 1em;
+    margin-left: 4em;
+    margin-right: 5em;
+    margin-bottom: 3em;
+ 
+}

@@ -1,0 +1,17 @@
+
+.bg_custom{
+  background-color: white;
+  }
+
+  .bg_selecteg{
+    background-color: rgb(218, 235, 249);
+  }
+
+
+  .deleteButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: orange;
+    border-radius: 0.4em;
+    height: 2em;
+  }

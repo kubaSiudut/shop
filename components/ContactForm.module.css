@@ -1,0 +1,134 @@
+.adressInfo{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1em ;
+  width: 100%;
+     
+  }
+  .buttonRwd{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(130, 129, 127);
+    border-radius: 0.4em;
+    width: 8em;
+    height: 2em;
+}
+.buttonFwd{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: orange;
+  border-radius: 0.4em;
+  width: 8em;
+  height: 2em;
+}
+.buttonBar{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2em;
+}
+  .checkBoxField{
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+
+  
+  }
+  .checkBox{
+     
+    border: none;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    margin-top: 0.3em;
+    margin-right: 3em;
+    
+
+  
+  }
+.error{
+  color:red ;
+  font-weight: 500;
+  margin-left: 1em;
+}
+ 
+
+.formContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    align-items: start;
+
+}
+
+.fullBar{
+    grid-column: span 2 / span 2;
+    width: 100%;
+ 
+ 
+  
+  
+
+}
+
+.link{
+  color: rgb(49, 49, 248);
+  cursor: pointer;
+}
+ 
+.mainContainer{
+    border: 1px solid rgb(201, 179, 137);
+    padding: 2em 2em;
+    border-radius: 1em;
+    margin-left: 4em;
+    margin-right: 5em;
+    margin-bottom: 3em;
+}
+.nameBar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+     
+    margin-bottom: 2em;
+    justify-content: space-around;
+  
+
+}
+.txtField{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+
+
+ 
+
+
+.txtInput{
+    width: 100%;
+    border: none;
+    outline: 1px solid  rgb(247, 237, 205);
+    margin-bottom: 1em;
+    border-radius: 3px;
+    margin-top: 0.3em;
+
+    
+
+  }
+
+  .txtInput:focus{
+    background-color:rgb(251, 247, 237) ;
+    outline: 2px solid  rgb(245, 197, 38);
+    
+
+  }
+  .userInfo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em ;
+    width: 100%;
+  }
+

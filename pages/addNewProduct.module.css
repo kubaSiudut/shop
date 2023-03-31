@@ -1,0 +1,63 @@
+
+  
+.bg_custom{
+  background-color: white;
+  }
+
+  .nameInputField {
+    width: 60%;
+    border: none;
+    margin-bottom: 3%;
+    border-radius: 3px;
+    outline: 2px solid  rgb(245, 197, 38);
+
+    
+
+  }
+
+  .nameInputField:focus{
+    background-color:rgb(241, 217, 137) ;
+    outline: 2px solid  rgb(245, 197, 38);
+    
+
+  }
+
+  .sizeBar {
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+  }
+  
+  .sizeSection {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .sizeInputField {
+    
+    border: none;
+    margin-bottom: 3%;
+    border-radius: 3px;
+    outline: 2px solid  rgb(245, 197, 38);
+  }
+  .sizeInputField:focus{
+    background-color:rgb(241, 217, 137) ;
+    outline: 2px solid  rgb(245, 197, 38);
+    
+
+  }
+
+  .addButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: orange;
+    border-radius: 0.4em;
+    height: 2em;
+  }
+
+
+
+
+ 
+  

@@ -1,0 +1,42 @@
+.mainContainer{
+    border: 1px solid rgb(201, 179, 137);
+    padding: 2em 2em;
+    border-radius: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+.group{
+
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5em;
+    
+}
+
+.deliveryPayment{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5em;
+    width: 50%;
+    
+}
+
+.buttonsGroup{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5em;
+    width: 45%;
+    
+}
+.buttonFwd {
+  
+    background-color: orange;
+    border-radius: 0.4em;
+    width: 8em;
+    height: 2em;
+  }

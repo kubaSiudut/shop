@@ -1,0 +1,39 @@
+.bg_custom {
+  background-color: white;
+}
+.buttonLogOut {
+  background-color: rgb(207, 172, 108);
+  border-radius: 0.4em;
+  width: 8em;
+  height: 2em;
+  margin-top: 0.7em;
+  justify-content: flex-end;
+}
+
+.button {
+  background-color: orange;
+  border-radius: 0.4em;
+  height: 2em;
+}
+
+.flexEndContainer {
+  justify-content: flex-end;
+  display: flex;
+}
+.flexContainer {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.akapit{
+  margin-left: 1em;
+  font-size: 2em;
+}
+.flexStartContainer {
+  justify-content: start;
+  display: flex;
+  width: 100%;
+  margin-top: 1em;
+}

@@ -1,0 +1,29 @@
+
+.desc_show{
+    animation: element-appear 1s ease-out forwards;
+  
+  }
+  .pic_show{
+    animation: element-appear 500ms ease-out forwards;
+  
+  }
+  .price_show{
+    animation: element-appear 2s ease-out forwards;
+    margin-left: 1em;
+    padding-left: 2em;
+  
+  }
+  .deleteButton{
+    background-color: rgb(236, 149, 17);
+    border-radius: 0.5em;
+    width: 4em;
+    margin-top: 0.5em;
+
+  }
+  .title{
+
+    width: 10em;
+  }
+  
+  
+ 

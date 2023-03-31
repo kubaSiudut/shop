@@ -1,0 +1,55 @@
+.desc_show {
+  animation: element-appear 500ms ease-out forwards;
+}
+.pic_show {
+  animation: element-appear 500ms ease-out forwards;
+}
+.price_show {
+  animation: element-appear 500ms ease-out forwards;
+  width: 100%;
+}
+
+@keyframes element-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.not_selected {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  height: 150px;
+  padding-left: 3em;
+  width: 90%;
+  margin-left: 3em;
+ 
+}
+
+.selected {
+  background-color: rgb(239, 233, 225);
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  height: 150px;
+  padding-left: 3em;
+  width: 90%;
+  margin-left: 3em;
+ 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 80%;
+}
+.parameters{
+  width: 100%;
+}
