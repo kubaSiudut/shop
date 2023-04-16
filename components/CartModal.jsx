@@ -62,9 +62,12 @@ export default function CartModal(props) {
             <div className={classes.control}>
               <div className={classes.sumary}>
                 <h4>{`Koszt zakupów : ${cartTotalAmount} zł`}</h4>
+
               </div>
 
-         {   (cartItems.lenght >0 || cartCustamizedItems.lenght>0 ) &&       <button
+
+         {/* {   (cartItems.lenght >0 || cartCustamizedItems.lenght > 0 ) &&       <button */}
+         {   (cartItems.length >0 || cartCustamizedItems.length > 0 ) &&       <button
                 className={classes.toCassButton}
                 onClick={() => {
                   router.push({
