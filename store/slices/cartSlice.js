@@ -20,6 +20,7 @@ export const cartSlice = createSlice({
       :   state.items = [  action.payload.item]
       localStorage.setItem('CartPriceTotal',JSON.stringify(state.totalAmount))
       localStorage.setItem('CartItems',JSON.stringify(state.items))
+
     },
     clear: (state,action) => {
         state.totalAmount = 0
@@ -50,6 +51,8 @@ export const cartSlice = createSlice({
 
     },
     addItem: (state,action) => {
+
+      console.log( 'dodaje produkt do koszyka')
       if(state.items&&state.items.find(el => el.id === action.payload.id))
       {
         let indeex = state.items.findIndex(el => el.id === action.payload.id)

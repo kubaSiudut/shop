@@ -19,6 +19,7 @@ const CartCustomizedProduct = (props) => {
 
       const amountChangeHandler = () => {
         dispatch(modifyAmounCustomizedProdInCart({id:props.id, amount:Amount.current.value}))
+        console.log("zmiana iliści  ")
       }
 
       const removeItemHamdler = () => {

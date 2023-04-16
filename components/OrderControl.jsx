@@ -184,7 +184,7 @@ export default function OrderControl() {
           </div>
           <div className={classes.buttonBar}>
             
-{  (cartItems.lenght >0 || cartCustamizedItems.lenght>0 ) &&          <button
+{         <button
               className={classes.buttonFwd}
               onClick={() => {
                 setStep(2);
