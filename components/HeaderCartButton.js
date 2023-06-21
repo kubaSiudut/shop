@@ -10,6 +10,11 @@ const HeaderCartButton = (props) => {
     (state) => state.cart.customizedItems
   );
   
+ console.log("cartCustamizedItems")
+ console.log(cartCustamizedItems)
+   
+ console.log("cartItems")
+ console.log(cartItems)
   const [size,setSize] = useState( cartCustamizedItems.length +  cartItems.length)
 
    const [btnIsHighlighted,setbtnIsHighlighted] = useState(false);
